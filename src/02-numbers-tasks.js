@@ -20,7 +20,7 @@
  *   5, 5  => 25
  */
 function getRectangleArea(num1, num2) {
-  return num1 * num2
+  return num1 * num2;
 }
 
 
@@ -142,7 +142,7 @@ function getLastDigit(value) {
  * '-525.5'     => -525.5
  */
 function parseNumberFromString(value) {
-  return Number(value)
+  return Number(value);
 }
 
 /**
@@ -181,7 +181,7 @@ function getParallelepipedDiagonal(/* a, b, c */) {
  *   1678, 3  => 2000
  */
 function roundToPowerOfTen(num, pow) {
-  return Math.round(num / Math.pow(10, pow)) * Math.pow(10,pow)
+  return Math.round(num / 10 ** pow) * 10 ** pow;
 }
 
 /**
@@ -202,8 +202,7 @@ function roundToPowerOfTen(num, pow) {
  *   17 => true
  */
 function isPrime(n) {
- return (n % 2 === 0) ? false : true;
-  
+  return n % 2 !== 0;
 }
 
 /**
