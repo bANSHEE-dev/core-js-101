@@ -1,8 +1,10 @@
-// 1678, 2  => 1700;
-
-
-function roundToPowerOfTen(num, pow) {
-  return Math.round(num / 10 ** pow) * 10 ** pow;
+// * @example
+// *   'aaaaa' => 5
+// *   'b'     => 1
+// *   ''      => 0
+// */
+function getStringLength(value) {
+ return value.length
 }
 
-console.log(roundToPowerOfTen(1678, 2));
+console.log(getStringLength("b"));
