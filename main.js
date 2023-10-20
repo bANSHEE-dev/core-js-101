@@ -2,7 +2,7 @@
 
 
 function reverseString(str) {
-  return str.split(' ').reverse().join(" ");
+  return [...str].reverse().join("");
 }
 
 console.log(reverseString('The quick brown fox jumps over the lazy dog'));
