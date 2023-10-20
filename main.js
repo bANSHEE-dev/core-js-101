@@ -1,16 +1,8 @@
-// *   12345 => 54321
-// *   1111  => 1111
-// *   87354 => 45378
-// *   34143 => 34143
-// *
-function reverseInteger(num) {
-return num.toString().split("").reverse().join("");
+// 'The quick brown fox jumps over the lazy dog' => 'god yzal eht revo spmuj xof nworb kciuq ehT'
+
+
+function reverseString(str) {
+  return str.split(' ').reverse().join(" ");
 }
 
-console.log(reverseInteger(12345));
-
-// *   12345 => 54321
-// *   1111  => 1111
-// *   87354 => 45378
-// *   34143 => 34143
-
+console.log(reverseString('The quick brown fox jumps over the lazy dog'));
